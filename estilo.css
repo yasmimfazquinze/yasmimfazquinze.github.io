@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: fonte;
+  src: url(GreatVibes-Regular.ttf);
+}
+
+#top{
+	/*background: rgb(210,175,255);
+	background: linear-gradient(80deg, rgba(210,175,255,1) 0%, rgba(225,196,255,1) 35%, rgba(210,175,255,1) 100%);*/
+
+}
+
+#fundo{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#logo{
+	position: relative;
+	width: 80%;
+	top: 0;
+	margin-top: -13%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	position: absolute;
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	margin-left: 0%;
+	margin-top: -24%;
+	font-size: 20px;
+
+}
+
+#divcarrossel{
+	margin-top: -5%;
+	position: absolute;
+	width: 100%;
+	justify-content: space-evenly;
+	display: inline-flex;
+}
+
+#fotocarrossel{
+	position: relative;
+	width: 65%;
+	border-radius: 15px;
+
+}
+
+.botaocarrossel{
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 40px;
+	border: none;
+}
+
+h2{
+	color: white;
+	position: absolute;
+	margin-left: 21%;
+	font-family: cursive;
+	font-size: 20px;
+	margin-top: 60%;
+}
+
+h3{
+
+	color: white;
+	position: absolute;
+	margin-left: 10%;
+	font-family: cursive;
+	font-size: 18px;
+	margin-top: 68%;
+}
+
+h4{
+
+	color: white;
+	position: absolute;
+	margin-left: 2%;
+	font-family: cursive;
+	font-size: 16px;
+	margin-top: 75%;
+}
+
+#botoesFooter{
+	display: flex;
+	position: absolute;
+	margin-left: 1%;
+	margin-top: 85%;
+
+}
+
+#botoesFooter img{
+	border-radius: 25px;
+
+	width: 25%;
+
+}
+
+#botoesFooter label{
+	color: white;
+	font-family: cursive;
+	font-size: 15px;
+	font-weight: bold;
+}

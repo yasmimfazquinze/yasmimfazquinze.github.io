@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Convite para o aniversário de 15 anos da Yasmim">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<title>Yasmim faz 15!</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div id="top">
+		<img id="fundo" src="fundo.jpg">
+		<img id="logo" src="Logo.png">
+		<h1>Venha comemorar comigo este dia especial passeando de limosine!</h1>
+		<div id="divcarrossel">
+			<button onclick="fotoEsquerda()" class="botaocarrossel"> < </button>
+			<img id="fotocarrossel" src='yasmim.jpg'>
+			<button onclick="fotoDireita()" class="botaocarrossel"> > </button>
+		</div>
+		<h2>13/06/2024 às 19H30</h2>
+		<h3>Rua Crato 218 - Jardim Nordeste</h3>
+		<h4>Trajeto: Paulista/Ibirapuera Retorno: 23H00</h4>
+	</div>
+	<div id="botoesFooter">
+		<div style="display: grid;justify-items: center;" onclick="window.open('https://maps.app.goo.gl/xBc7qLAFwL6TKuLD7')">
+			<img name="mapa" src="mapa.jpg">
+			<label for="mapa">Abrir o Maps</label>
+		</div>
+		<div style="margin-left: -5%;display: grid;justify-items: center;" onclick="window.open('https://api.whatsapp.com/send?phone=5511991767870&text=Confirmando%20a%20minha%20presen%C3%A7a%20no%20seu%20anivers%C3%A1rio%20de%2015%20anos!')">
+			<img name="whatsapp" src="whatsapp.jpg">
+
+			<label for="whatsapp">Confirmar presença</label>
+		</div>	
+	</div>
+	<script type="text/javascript" src="codigos.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
